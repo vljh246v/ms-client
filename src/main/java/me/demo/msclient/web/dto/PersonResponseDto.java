@@ -7,7 +7,7 @@ import me.demo.msclient.domain.Person;
 @Getter
 public class PersonResponseDto {
 
-    private Long id;
+    private String id;
     private String firstName;
     private String lastName;
     private int age;
