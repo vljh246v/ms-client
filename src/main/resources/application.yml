@@ -19,3 +19,10 @@ my:
   servers:
     - dev.bar.com
     - foo.bar.com
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: env,beans
